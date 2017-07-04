@@ -2,7 +2,7 @@
 # @Author: vition
 # @Date:   2017-07-04 14:19:51
 # @Last Modified by:   vition
-# @Last Modified time: 2017-07-04 14:22:00
+# @Last Modified time: 2017-07-04 14:28:24
 from distutils.core import setup
 
 setup(
@@ -10,14 +10,8 @@ setup(
     version='1.2.0',
     author='vition kuo',
     author_email='369709991@qq.com',
-    packages=['towelstuff', 'towelstuff.test'],
-    scripts=['bin/stowe-towels.py','bin/wash-towels.py'],
+    packages=['WorkingDay', 'ChinaHoliday'],
     url='https://github.com/vition/workingDay',
-    license='LICENSE.txt',
-    description='Useful towel-related stuff.',
-    long_description=open('README.txt').read(),
-    install_requires=[
-        "Django >= 1.1.1",
-        "caldav == 0.1.4",
-    ],
+    description='获取节假日的库，适用于中国',
+    long_description=open('README.md').read(),
 )
