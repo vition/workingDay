@@ -2,7 +2,7 @@
 # @Author: vition
 # @Date:   2017-07-04 09:47:07
 # @Last Modified by:   vition
-# @Last Modified time: 2017-07-04 14:13:43
+# @Last Modified time: 2017-07-04 16:28:35
 import urllib2
 import urllib
 import datetime
@@ -144,6 +144,6 @@ class ChinaHoliday(object):
 
 
 if __name__ == "__main__":
-	china=ChinaHoliday(2016)
+	china=ChinaHoliday(2017)
 	print china.get_working
 	print china.get_holiday
