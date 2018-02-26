@@ -29,15 +29,15 @@ import WorkingDay
 #返回的是经过国务院发布的节假日公告修正过的工作日字典
 year=2017
 year2017=WorkingDay.WorkingDay(year)
-print year2017.chian_holiday.get_workday
+print year2017.china_holiday.get_workday
 
 #添加工作日，指定的日期会增加到对象字典中
 year2017.set_working({1:[1,2,3]})
-print year2017.chian_holiday.get_workday
+print year2017.china_holiday.get_workday
 
 #添加节假日，指定的日期会从字典中踢出
 year2017.set_holiday({2:[1,2,3]})
-print year2017.chian_holiday.get_workday
+print year2017.china_holiday.get_workday
 
 #直接输出不含周六日的工作日字典
 year2016=WorkingDay(2016)

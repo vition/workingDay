@@ -100,7 +100,7 @@ class WorkingDay(object):
 		return False
 
 	@property
-	def chian_holiday(self):
+	def china_holiday(self):
 		china=ChinaHoliday.ChinaHoliday()
 		china.set_year(self.__year)
 		self.set_holiday(china.get_holiday)
